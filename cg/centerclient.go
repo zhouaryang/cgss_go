@@ -1,7 +1,7 @@
 package cg
 
 import (
-	"cgss/src/ipc"
+	"../ipc"
 	"encoding/json"
 	"errors"
 )
