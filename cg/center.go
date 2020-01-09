@@ -1,7 +1,7 @@
 package cg
 
 import (
-	"cgss/src/ipc"
+	"../ipc"
 	"encoding/json"
 	"errors"
 	"sync"
@@ -39,7 +39,6 @@ func (server *CenterServer) addPlayer(params string) error {
 	if err != nil {
 		return err
 	}
-
 	server.mutex.Lock()
 	defer server.mutex.Unlock()
 

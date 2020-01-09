@@ -1,13 +1,13 @@
 package main
 //主程序具备模拟用户游戏过程和管理员功能（发通告）
 import (
+	"./cg"
+	"./ipc"
 	"bufio"
 	"fmt"
 	"os"
 	"strconv"
 	"strings"
-	"./ipc"
-	"./cg"
 )
 
 var centerClient *cg.CenterClient//定义中央服务器
